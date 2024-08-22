@@ -16,6 +16,12 @@ return {
       "gomod",
       "gowork",
       "gosum",
+      "javascript",
+      "typescript",
+      "json",
+      "html",
+      "css",
+      "markdown",
     })
   end,
 }

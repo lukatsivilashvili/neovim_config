@@ -29,7 +29,9 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  install = { colorscheme = { "oxocarbon", "habamax" } },
+  vim.api.nvim_set_hl(0, "Normal", { bg = "none" }),
+  vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" }),
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {
